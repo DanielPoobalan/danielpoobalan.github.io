@@ -1,39 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Daniel Poobalan | Cybersecurity Portfolio</title>
-  <link rel="stylesheet" href="style.css"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daniel Poobalan - Cybersecurity Portfolio</title>
+  <style>
+    body {
+      background-color: #0d1117;
+      color: #c9d1d9;
+      font-family: Consolas, monospace;
+      padding: 2rem;
+    }
+    h1, h2, h3 {
+      color: #58a6ff;
+    }
+    a {
+      color: #8b949e;
+      text-decoration: none;
+    }
+    a:hover {
+      color: #58a6ff;
+    }
+    .section {
+      margin-bottom: 2rem;
+    }
+    .project-list li {
+      margin-bottom: 0.5rem;
+    }
+  </style>
 </head>
 <body>
-  <div class="terminal">
-    <div class="header">
-      <span class="green">daniel@portfolio</span>:<span class="blue">~</span>$ <span class="command">whoami</span>
-    </div>
-    <div class="body">
-      <p><strong>Name:</strong> Daniel Poobalan</p>
-      <p><strong>Role:</strong> Cybersecurity Specialist | Certified Ethical Hacker | Network Defender</p>
-      <p><strong>Location:</strong> Malaysia (Open to remote & hybrid work)</p>
-      <p><strong>About Me:</strong><br>
-        A lifelong learner driven by curiosity and a mission to secure digital systems. I’ve transitioned from IT support and admin roles into the cybersecurity field, armed with EC-Council certifications (CEH, CND, ECSS) and hands-on lab work in Red and Blue teaming. 
-        I believe experience is not baggage — it’s firepower.
-      </p>
-      <p><strong>📂 Full Learning Record:</strong> <a href="https://tryhackme.com/p/DanielPoobalan" target="_blank">TryHackMe Profile</a></p>
-      <p><strong>📂 Skills Matrix:Foundational</strong></p>
-      <img src="../images/foundational.png" alt="OWASP Lab Screenshot" width="500px">
-       <p><strong>📂 Skills Matrix:Security Analyst</strong></p>
-      <img src="../images/Security Analyst.png" alt="OWASP Lab Screenshot" width="500px">
-      <p><strong>📂 Skills Matrix:Penetration Tester</strong></p>
-      <img src="../images/Penetration Tester.png" alt="OWASP Lab Screenshot" width="500px">
-      <p><strong>📂 Skills Matrix:Security Engineer</strong></p>
-      <img src="../images/Security Engineer.png" alt="OWASP Lab Screenshot" width="500px">
+  <h1>🛡️ Daniel Poobalan's Cybersecurity Portfolio</h1>
+  <p>Welcome to my cybersecurity project portfolio. I’m an EC-Council Certified Ethical Hacker (CEH), Network Defender (CND), and Security Specialist (ECSS). This site showcases my hands-on lab projects, write-ups, and toolkits built through real-world simulations and TryHackMe labs.</p>
 
-
-      <p><strong>Certifications:</strong> CEH | CND | ECSS</p>
-      <p><strong>Projects:</strong> <a href="projects.html">View My Lab Work</a></p>
-      <p><strong>Contact:</strong> <a href="mailto:daniel.poobalan@gmail.com">Email</a> | <a href="https://linkedin.com/in/danielpoobalan">LinkedIn</a> | <a href="https://github.com/DanielPoobalan">GitHub</a></p>
-    </div>
+  <div class="section">
+    <h2>🔍 Vulnerability Reports</h2>
+    <ul class="project-list">
+      <li><a href="./Vulnerability-Reports/OpenVAS-Windows10-VulnReport.md">OpenVAS Report on Windows 10 VM</a></li>
+    </ul>
   </div>
+
+  <div class="section">
+    <h2>🧠 CTF Writeups</h2>
+    <ul class="project-list">
+      <li><a href="./CTF-Writeups/TryHackMe-OWASP.md">OWASP Top 10 - TryHackMe</a></li>
+      <li><a href="./CTF-Writeups/THM-Blue.md">Blue Room - TryHackMe</a></li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>🔥 Incident Response</h2>
+    <ul class="project-list">
+      <li><a href="./Incident-Response/Simulated-Phishing-Attack.md">Phishing Simulation IR Report</a></li>
+      <li><a href="./Incident-Response/Log-Analysis-and-IR-Report.md">Log Analysis and IR Report</a></li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>🛰️ Network Security Lab</h2>
+    <ul class="project-list">
+      <li><a href="./Network-Security-Lab/NetworkSecurityLab-Setup.md">Network Security Lab Setup</a></li>
+      <li><a href="./Network-Security-Lab/FirewallRules.md">Firewall Rules Documentation</a></li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>⚙️ Cybersecurity Tools Toolkit</h2>
+    <ul class="project-list">
+      <li><a href="./CyberTools-Toolkit/Tool-Notes.md">Cybersecurity Tools Notes</a></li>
+      <li><a href="./CyberTools-Toolkit/Sample-Commands.md">Common Commands Reference</a></li>
+    </ul>
+  </div>
+
+  <footer>
+    <p>Connect with me on <a href="https://www.linkedin.com/in/danielpoobalan">LinkedIn</a> | View my labs on <a href="https://tryhackme.com/p/danielpoobalan">TryHackMe</a></p>
+  </footer>
 </body>
 </html>
